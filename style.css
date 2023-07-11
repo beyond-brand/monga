@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.desktop {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+.desktop img {
+    width: 100%;
+}
+
+.mobile {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+.mobile img {
+    width: 100%;
+}
+@media only screen and (min-width: 769px) {
+    .mobile {
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .desktop {
+        display: none;
+    }
+
+  }
