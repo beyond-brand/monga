@@ -4,6 +4,9 @@ body {
 }
 
 .desktop {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
     margin: 0;
     padding: 0;
     position: absolute;
@@ -18,6 +21,9 @@ body {
 }
 
 .mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
     margin: 0;
     padding: 0;
     position: absolute;
